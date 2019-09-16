@@ -57,10 +57,9 @@ MinHeap.prototype.heapifyDown = function(ci){
     }
  }
 
-
+// Usage :
 // var mp = new MinHeap();
 // var eles = [11,13,14,4,12,3,5];
-// eles = [12,13,14]
 
 // eles.forEach(function(ele,i){
 //   mp.insert(ele);
@@ -69,7 +68,6 @@ MinHeap.prototype.heapifyDown = function(ci){
 // eles.forEach(function(ele,i){
 //   console.log(mp.arr)
 //   console.log(mp.delete());
-  
 // })
 
 
